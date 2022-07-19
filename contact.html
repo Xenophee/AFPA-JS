@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="description" content="Jardinage qualité depuis 70 ans">
+<title>Site Jarditou</title>
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+
+    <div class="container ">
+    <header class="d-none d-md-block">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-3">
+                <img src="src/img/jarditou_logo.jpg" alt="Logo Jarditou" title="La qualité depuis 70 ans" width="150">
+            </div>
+            <div class="col-md-3">
+                <p class="fs-1">Tout le jardin</p>
+            </div>
+        </div>
+        </header>
+        
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light px-3 ">
+                <a class="navbar-brand" href="#">Jarditou.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tableau.html">Tableau</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Votre Promotion" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                </form>
+            </div>
+            </nav>
+
+
+            <div class="row">
+                <img src="src/img/promotion.jpg" alt="Promotion Jarditou" title="Promotion Jarditou">
+            </div>
+
+
+
+    <section class="my-3 pt-3 px-3 border border-dark">
+        <article>
+            <form action="http://bienvu.net/script.php" method="post" id="formulaire">
+                        <p>* Ces zones sont obligatoires</p>
+                        <fieldset>
+                        <legend class="fs-1">Vos Coordonnées</legend>
+                        <div class="mb-3">
+                                <label for="nom" class="form-label">Votre nom* :</label><input type="text" name="nom" id="nom" class="form-control">
+                                <p id="f1"></p>
+                        </div>
+                        <div class="mb-3">
+                                <label for="prénom" class="form-label" >Votre prénom* :</label><input type="text" name="prenom" id="prenom" class="form-control">
+                                <p id="f2"></p>
+                        </div>
+                        
+                        <label for="sexe" class="form-label">Sexe* :</label>
+                                <div class="ps-3 d-inline"><input type="radio" name="sexe" id="sexe1" value="Féminin" class="form-check-input">
+                                <label class="form-check-label" for="sexe1">Féminin</label></div>
+                    
+                                <div class="ps-3 d-inline"><input type="radio" name="sexe" id="sexe2" value="Masculin" class="form-check-input">
+                                <label class="form-check-label" for="sexe2">Masculin</label></div>
+                                <p id="f3"></p>
+
+                        <div class="mb-3">
+                            <label for="date" class="form-label">Date de naissance* :</label><input type="date" name="date" id="date" class="form-control">
+                            <p id="f4"></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cpostal" class="form-label">Code postal* :</label><input name="cpostal" id="cpostal" class="form-control">
+                            <p id="f5"></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="adresse" class="form-label">Adresse :</label><input type="text" name="adresse" id="adresse" class="form-control">
+                            <p id="f6"></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ville" class="form-label">Ville :</label><input type="text" name="ville" id="ville" class="form-control">
+                            <p id="f7"></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email* :</label><input type="email" name="email" id="email" placeholder="dave.loper@afpa.fr" class="form-control">
+                            <p id="f8"></p>
+                        </div>
+                        </fieldset>
+                        <br>
+                    <fieldset>
+                        <legend class="fs-1">Votre demande</legend>
+                        <div class="mb-3">
+                            <label for="sujet" class="form-label">Sujet* :</label>
+                                <select id="sujet" class="form-select">
+                                    <option value="" selected>Veuillez séléctionner un sujet</option>
+                                    <option value="commandes">Mes commandes</option>
+                                    <option value="question">Question sur un produit</option>
+                                    <option value="réclamation">Réclamation</option>
+                                    <option value="autres">Autres</option>
+                                </select>
+                                <p id="f9"></p>
+                            </div>
+                            <label for="question" class="form-label">Votre question* :</label><textarea name="question" id="question" cols="10" class="form-control"></textarea>
+                            <p id="f10"></p>
+                    </fieldset>
+                    <br>
+                            <input type="checkbox" name="acceptation" value="acceptation" class="btn btn-primary" id="acceptation"> * J'accepte le traitement informatique de ce formulaire.
+                            <p id="f11"></p>
+                    <br>
+                    <br>
+                    <div class="mb-3">
+                        <input type="submit" value="Envoyer" class="btn btn-dark">
+                        <input type="reset" value="Annuler" class="btn btn-dark">
+                    </div>
+                </form>
+        </article>
+    </section>
+
+
+    <footer role="navigation" class="navbar navbar-expand-lg navbar-dark bg-dark px-3 rounded-3">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link link-secondary" href="">Mention légales</a></li>
+            <li class="nav-item"><a class="nav-link link-secondary" href="">Horaires</a></li>
+            <li class="nav-item"><a class="nav-link link-secondary" href="">Plan du site</a></li>
+        </ul>
+    </div>
+
+    </footer>
+
+
+</div>
+
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
